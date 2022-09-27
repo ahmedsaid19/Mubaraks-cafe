@@ -1,0 +1,156 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+
+header {
+width: 1024px;
+height: 50px;
+
+
+}
+
+nav {
+font-size: 34px;
+text-align: right;
+background-color:  rgba(24, 23, 23, 0.308);
+width: 400px;
+margin-left: 900px;
+padding-right: 40px;
+padding-bottom: 10px;
+
+
+
+}
+
+main {
+
+height: 1500px;
+width: 1300px;
+padding-top: 30px;
+color: rgb(255, 255, 255);
+text-align: center;
+
+}
+
+footer {
+width: 1024px;
+background-color: rgba(24, 23, 23, 0.308);
+color: rgb(250, 250, 250);
+margin-top: 50px;
+margin-left: 30px;
+padding-top: 10px;
+
+}
+
+
+
+
+
+.mainp1 {
+
+    font-size: 24px;
+    color: rgb(211, 206, 206);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    
+
+
+}
+
+
+.info1 {
+
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+}
+
+.info2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+
+.info3 {
+    text-align: center;
+}
+
+    
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+footer a {
+    color: rgb(255, 246, 246);
+    
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#dish1 {
+    width: 330px;
+    height: auto;
+    border-radius: 39px;
+    border: solid;
+}
+.dishrecipe {
+    width: 200px;
+   text-align: right;
+   font-size: 25px;
+   text-decoration: underline;
+}
+
+
+.foodogdrinklist {
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+#dish7 {
+    width: 250px;
+    height: auto;
+    border-radius: 39px;
+    border: solid;
+}
+
+#dish8 {
+    width: 250px;
+    height: auto;
+    border-radius: 39px;
+    border: solid;
+    text-align: center;
+} 
+
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+}
