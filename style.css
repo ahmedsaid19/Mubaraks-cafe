@@ -330,14 +330,14 @@ footer {
   transition: 0.2s ease-in-out;
 }
 .contact-form input:focus, textarea:focus {
-  border-bottom: rgb(0, 0, 0) solid 5px;
+  border-bottom: #205493 solid 5px;
 }
 .contact-submit {
   text-align: center;
   width: 30%;
 }
 .contact-submit input:hover {
-  border-bottom: rgb(0, 0, 0) solid 5px;
+  border-bottom: #205493 solid 5px;
 }
 
 /*
