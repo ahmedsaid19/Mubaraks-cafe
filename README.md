@@ -1,4 +1,4 @@
-# Mubaraks-cafe
+# FoodieRestaurant
 Obligatorisk Oppgave nr.1 DATA1200
 
 Obligatory assignments 19
