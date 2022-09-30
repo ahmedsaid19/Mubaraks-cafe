@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  font-family: Poppins, Helvetica, sans-serif;
+  background-image: radial-gradient(#414551, #151419 85%);
+  color: white;
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: Poppins, Helvetica, sans-serif;;
+}
+h2 {
+  font-size: 28px;
+}
+header {
+  height: 150px;
+  width:100%;
+  background-image: rgba(80, 77, 94, 0), rgba(29,18,24,2), rgba(80, 77, 94);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 45%;
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+/*
+  start of logo
+*/
+#logo {
+  margin-top: 25px;
+  height: 100px;
+}
+
+/*
+  end of logo
+*/
+
+/*
+  start of open hours
+*/
+
+#openhours {
+  width: 825px;
+  margin: auto;
+  margin-top: 45px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #323a45;
+  border: 2px solid white;
+}
+
+/*
+  end of open hours
+*/
+
+
+/*
+  start of menu
+*/
+
+#menu {
+  margin-left: auto;
+  margin-top: -5px;
+}
+#menu a{
+  text-decoration: none;
+  color: white;
+  border-radius: 50% 50%;
+  font-size: 24px;
+  background-color: #205493;
+  border: 2px solid white;
+  box-shadow: 0 5px 10px rgba(0,0,0, 0.8);
+  padding: 20px;
+  margin: 5px 10px;
+}
+#menu ul {
+  padding-left:0;
+}
+#menu li{
+  padding: 5px 0px;
+  list-style-type: none;
+  list-style:none;
+  display: inline-block;
+}
+#menu a:focus {
+  background-color:#0071bc;
+  padding: 24px;
+  margin: 5px 6px;
+}
+#menu li a:hover {
+  background-color:#0071bc;
+  padding: 24px;
+  margin: 5px 6px;
+}
+
+/*
+  end of menu
+*/
+
+/*
+  start of hr
+*/
+
+hr{
+  width: 75%
+}
+
+#infoLine { 
+  width: 100%   /*so lines are made above adress, e-mail and socials*/
+}
+
+/*
+  end of hr
+*/
+
+
+/*
+  start of main for menu.html
+*/
+
+main{
+  margin-top: 200px;
+  min-width: 75%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main h1,h2 {
+  text-align: center;
+  color: ghostwhite;
+  font-family: Poppins, Helvetica, sans-serif;
+}
+
+/*
+  end of main for menu.html
+*/
+
+/*
+start of meals
+*/
+
+.meals-div {
+  color: black;
+  min-height: 200px;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.meal-div {
+  width: 280px;
+  height: 440px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  background-color: #205493;
+  border-radius: 20px;
+  border: 2px solid white;
+  color: #ffffff;
+
+}
+.meal-div img {
+  object-fit: cover; 
+  margin-top: -10px;
+  border-radius: 20px;
+  width: 240px;
+  height: 240px;
+}
+.meal-div h3 {
+  font-size: 25px;
+}
+
+/*
+  end of meals
+*/
+
+/*
+  start of footer
+*/
+
+footer {
+  width: 80%;
+  margin: auto;
+  min-height: 390px;
+}
+.information-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.information-container h2 {
+  text-align: left;
+  color: #ffffff ;
+  font-size: 25px;
+}
+.infoChild {
+  vertical-align:top; 
+  width: 300px;
+  height: 270px;
+  margin-right: 15px;
+}
+.infoChild2 {
+  width: 650px;
+}
+.infoChild ul{
+  list-style-type: none;
+  color: #ffffff ;
+}
+.infoChild a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 25px;
+}
+.infoChild a:hover, a:focus {
+  font-weight: bold;
+}
+.soMeLinks {
+  background-position: center;
+  display: inline-block;
+  margin-right: 10px;
+  width: 12px;
+}
+
+/*
+  end of footer
+*/
+
+
+/*
+  start of report
+*/
+
+.report p{
+  max-width: 50%;
+  padding: 10px;
+  line-height: 30px;
+  font-size: larger;
+  margin: auto;
+}
+
+/*
+  end of report
+*/
+
+
+/*
+  start of location.html. We put in the same navbar and footer for location.html
+*/
+
+.location-container {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 12%;
+  margin-bottom: 1%;
+}
+#location-space1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+#location-space2 {
+  font-size: 1.3rem;
+}
+.location-div {
+  height: 700px;
+  width: 860px;
+  max-width: 90%;
+  margin: auto;
+  margin-bottom: 4%;
+  padding: 5px;
+
+}
+.location-google {
+  height: 100%;
+  width: 100%;
+}
+
+/*
+  end of location.html
+*/
+
+
+/*
+  start of contact.html. We put in the same navbar and footer for contact.html.
+*/
+.contact-form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 1150px;
+  height: 800px;
+  margin: auto;
+  margin-top: 8%;
+  margin-bottom: 3%;
+}
+.contact-container {
+  font-size: 2.5rem;
+  margin-top: 45px;
+}
+.contact-form input, textarea {
+  font-size: 1rem;
+  width: 70%;
+  padding: 20px;
+  padding-bottom: 18px;
+  background-color: rgb(255, 255, 255);
+  outline: rgba(0, 0, 0, 0.5) solid 2px;
+  border: none;
+  border-bottom: transparent solid 5px;
+  transition: 0.2s ease-in-out;
+}
+.contact-form input:focus, textarea:focus {
+  border-bottom: rgb(0, 0, 0) solid 5px;
+}
+.contact-submit {
+  text-align: center;
+  width: 30%;
+}
+.contact-submit input:hover {
+  border-bottom: rgb(0, 0, 0) solid 5px;
+}
+
+/*
+  end of contact.html
+*/
