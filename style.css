@@ -14,7 +14,6 @@ h2 {
 header {
   height: 150px;
   width:100%;
-  background-image: rgba(80, 77, 94, 0), rgba(29,18,24,2), rgba(80, 77, 94);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 45%;
@@ -22,6 +21,26 @@ header {
   text-align: center;
   line-height: 1.3em;
 }
+
+/*
+  Structure of css (use ctrl+f, then search either of them):
+
+  mainly these below are for index.html (+some parts are repeated in other file.html)
+
+  logo
+  open hours
+  menu
+  hr
+  main
+  meals
+  footer
+
+  report (its for report.html)
+
+  location (its for location.html)
+
+  contact (its for contact.html)
+*/
 
 /*
   start of logo
@@ -115,7 +134,7 @@ hr{
 
 
 /*
-  start of main for menu.html
+  start of main
 */
 
 main{
@@ -130,11 +149,11 @@ main h1,h2 {
 }
 
 /*
-  end of main for menu.html
+  end of main 
 */
 
 /*
-start of meals
+  start of meals
 */
 
 .meals-div {
@@ -228,7 +247,7 @@ footer {
 
 
 /*
-  start of report
+  start of report.html. We put only navbar and footer in report.html
 */
 
 .report p{
@@ -237,6 +256,7 @@ footer {
   line-height: 30px;
   font-size: larger;
   margin: auto;
+  margin-bottom: 3%;
 }
 
 /*
@@ -245,7 +265,7 @@ footer {
 
 
 /*
-  start of location.html. We put in the same navbar and footer for location.html
+  start of location.html. We put in the same navbar, open hours and footer for location.html
 */
 
 .location-container {
@@ -280,9 +300,8 @@ footer {
   end of location.html
 */
 
-
 /*
-  start of contact.html. We put in the same navbar and footer for contact.html.
+  start of contact.html. We put in the same navbar, open hours and footer for contact.html.
 */
 .contact-form {
   display: flex;
