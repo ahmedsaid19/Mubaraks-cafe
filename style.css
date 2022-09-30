@@ -324,7 +324,7 @@ footer {
   padding: 20px;
   padding-bottom: 18px;
   background-color: rgb(255, 255, 255);
-  outline: rgba(0, 0, 0, 0.5) solid 2px;
+  outline: #205493 solid 5px;
   border: none;
   border-bottom: transparent solid 5px;
   transition: 0.2s ease-in-out;
